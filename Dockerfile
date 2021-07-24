@@ -1,4 +1,4 @@
-FROM node:8.6
+FROM node:14-buster
 
 # First install dependencies
 COPY ./package.json ./app/
